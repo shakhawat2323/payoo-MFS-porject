@@ -12,7 +12,7 @@ document.getElementById('btn-login').addEventListener('click',function(event){
     if(phoneNumber==='5'&& password ==='1234'){
         console.log('you ar a login');
         // Allow user to use the website
-        window.location.href='/home.html'
+        window.location.href='./home.html'
     }
     else{
         alert('Rong phone numbar and pin')
